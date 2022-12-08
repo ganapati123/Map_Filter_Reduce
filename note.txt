@@ -1,0 +1,12 @@
+ map(), reduce(), filter() these three are regarding to Arrays
+
+ map() : this is take a function as a callback function,which is having any type of format like 
+          anonymous/arrow/named funcitons
+
+     eg:   var arr = [10,20,30,40]
+           arr.map(){   //map() which is giving a array.in that array contain some elements 
+            ()=>{    //this function takes those elements and execute the function, and return some values,
+                     // whatever the values are return from function, those values stored inside a new created array then stored values are returned  
+
+            }
+        }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let arr = [1,2,3,4]
+
+    let res = arr.reduce(
+        (accu,ele,index,a)=>{
+            console.log(accu)  //for know the accumulator values(bydefalut accu =1)
+              return ele+accu
+        },5)                    //accu=5 then first 5, then 5+1=6(2nd accu),6+3=9 (3rd accu)
+        console.log(res)
+
+   </script> 
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let st_marks = [
+        {
+            name:'abc',
+            marks:500
+        },
+        {
+            name:'bcd',
+            marks:520
+        },
+        {
+            name:'def',
+            marks:560
+        },
+        {
+            name:'pqr',
+            marks:400
+        },
+        {
+            name:'mno',
+            marks:540
+        }
+    ]
+
+    let topers = st_marks.filter(
+        (ele,index,marks)=>{
+        return ele.marks>500  //abouve 500 marks 
+    })
+    console.log(topers)
+   </script> 
+</body>
+</html>
